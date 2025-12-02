@@ -43,7 +43,7 @@ echo.
 
 REM 检查 Python
 echo [1/4] 🐍 检查 Python...
-python --version >nul 2>&1
+py --version >nul 2>&1
 if %errorlevel% neq 0 (
     echo ❌ 未检测到 Python，请先安装 Python 3.10+
     echo 下载地址: https://www.python.org/downloads/
